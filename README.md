@@ -12,8 +12,8 @@ The header has a special format that includes a **type**, a **scope** and a **su
 <footer>
 ```
 
-## type
-
+## Header
+### type
 
 **type** must be one of the following mentioned below!
 - `build`: Build related changes (eg: npm related/ adding external dependencies)
@@ -27,7 +27,7 @@ The header has a special format that includes a **type**, a **scope** and a **su
 - `test`: Adding new test or making changes to existing test
 
 
-## scope
+### scope
 
 **scope** must be noun and it represents the section of the section of the codebase.
 Example **scope** values:
@@ -40,7 +40,7 @@ Example **scope** values:
 
 The **scope** can be empty (e.g. if the change is a global or difficult to assign to a single component), in which case the parentheses are omitted. In smaller projects such as Karma plugins, the **scope** is empty.
 
-## subject
+### subject
 - use imperative, present tense (eg: use "add" instead of "added" or "adds")
 - don't use dot(.) at end
 - don't capitalize first letter
