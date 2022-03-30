@@ -27,7 +27,7 @@ The header has a special format that includes a **type**, a **scope** and a **su
 - `test`: Adding new test or making changes to existing test
 
 
-### scope
+### scope [optional]
 
 **scope** must be noun and it represents the section of the section of the codebase.
 Example **scope** values:
